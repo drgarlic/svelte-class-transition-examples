@@ -5,14 +5,18 @@
 <div class="
     space-y-6
 ">
-    <h2 class="
-        ml-4
-        text-2xl
-        text-gray-900
-        dark:text-gray-50
-    ">
-        Toggleless and parentless transition
-    </h2>
+    <a href="https://github.com/gawlk/svelte-class-transition-examples/blob/master/src/components/ExampleTogglessParentless.svelte">
+        <h2 class="
+            ml-4
+            text-2xl
+            text-gray-900
+            hover:text-gray-700
+            dark:text-gray-50
+            dark:hover:text-gray-200
+        ">
+            Toggleless and parentless transition
+        </h2>
+    </a>
     <Transition
         transitions="transition transform"
         inTransition="ease-out duration-1000"

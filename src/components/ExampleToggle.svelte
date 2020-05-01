@@ -7,14 +7,18 @@
 <div class="
     space-y-6
 ">
-    <h2 class="
-        ml-4
-        text-2xl
-        text-gray-900
-        dark:text-gray-50
-    ">
-        Transtion with toggle
-    </h2>
+    <a href="https://github.com/gawlk/svelte-class-transition-examples/blob/master/src/components/ExampleToggle.svelte">
+        <h2 class="
+            ml-4
+            text-2xl
+            text-gray-900
+            hover:text-gray-700
+            dark:text-gray-50
+            dark:hover:text-gray-200
+        ">
+            Transtion with toggle
+        </h2>
+    </a>
     <label class="
         ml-4
         inline-flex
